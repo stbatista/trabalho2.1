@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador e codificador</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/mobile.css">
+    <link rel="stylesheet" href="interação/script.js">
+    <link rel="shortcut icon" href="imagens/gato.png" type="image/x-icon">
+</head>
+<body>
+     <main class="main container">
+         <header class="cabecalho">
+           <img src="imagens/gato.png" alt="logo gato">
+           <h1>Codificador e Decodificador</h1>
+         </header>
+         <nav class="menu">
+            <div class="icons">
+            <a href="https://www.instagram.com/st_batista/"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://github.com/stbatista"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+            <h3>Desenvolvido por Stefhany Batista</h3>
+         </nav>
+         <div class="container-input">
+         <div class="input">
+            <textarea  id="input-texto" placeholder="Digite seu texto aqui"></textarea>
+            </div>
+
+
+         <div id="output">
+            <img src="imagens/gato.png" alt="" height="300px" width="300px">
+            <h2>Sua mensagem <br>aparecerá aqui!</h2>
+            </div>
+        </div>
+
+
+         <div class="button">
+             <div class="container-bnt">
+                <button  onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button  onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+             </div>
+
+         </div>
+     </main>
+
+     <script src="interação/script.js"></script>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
